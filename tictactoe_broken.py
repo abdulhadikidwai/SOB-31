@@ -107,5 +107,4 @@ if __name__ == '__main__':
         player = switch_player(player)
         winner = check_winner(game)  # Uncommented winner check
     display_winner(winner)
-
 # By- Abdul Hadi Kidwai (M00990950)
