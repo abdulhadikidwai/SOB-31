@@ -27,7 +27,6 @@ while playing:
     cowbullcount = compare_numbers(number,user_guess)
     guesses+=1
 
-# By- Abdul Hadi Kidwai (M00990950)
     print("You have "+ str(cowbullcount[0]) + " cows, and " + str(cowbullcount[1]) + " bulls.")
 
     if cowbullcount[1]==4:
@@ -36,3 +35,5 @@ while playing:
         break #redundant exit
     else:
         print("Your guess isn't quite right, try again.")
+
+# By- Abdul Hadi Kidwai (M00990950)
