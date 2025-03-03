@@ -21,36 +21,38 @@
 
 exam_one = int(input("Input exam grade one: "))
 
-exam_two = input("Input exam grade two: "))
+exam_two = int(input("Input exam grade two: ")) # added int
 
-exam_3 = str(input("Input exam grade three: "))
+exam_three = int(input("Input exam grade three: ")) #Changed to int and 3 to three
 
-grades = [exam_one exam_two exam_three]
+grades = [exam_one, exam_two, exam_three] #Added missing commas
 sum = 0
-for grade in grade:
+for grade in grades: # changed grade to grades
   sum = sum + grade
 
-avg = sum / len(grdes)
+avg = sum / len(grades) #Fixed variable name to grades
 
 if avg >= 90:
     letter_grade = "A"
-elif avg >= 80 and avg < 90
+elif avg >= 80: # Added missing colon
     letter_grade = "B"
-elif avg > 69 and avg < 80:
-    letter_grade = "C'
-elif avg <= 69 and avg >= 65:
+elif avg >= 70:  # Line 16 (Fixed comparison operator and missing colon)
+    letter_grade = "C"
+elif avg >= 60:  # Line 18 (Fixed comparison operator and missing colon)
     letter_grade = "D"
-elif:
+else: # Fixed logical error
     letter_grade = "F"
 
 for grade in grades:
-    print("Exam: " + str(grade))
+    print("Exam: " + str(grade)) #Corrected to grades
 
     print("Average: " + str(avg))
 
     print("Grade: " + letter_grade)
 
-if letter-grade is "F":
-    print "Student is failing."
+if letter_grade == "F": # changed - to _ and is to ==
+    print("Student is failing.") # Added brackets
 else:
-    print "Student is passing."
+    print("Student is passing.") # Added brackets
+
+# By- Abdul Hadi Kidwai (M00990950)
